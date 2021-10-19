@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App/App';
+import SumarNumeros from './components/SumarNumeros/SumarNumeros';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SumarNumeros />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
